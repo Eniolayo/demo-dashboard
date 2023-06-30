@@ -59,7 +59,7 @@ export const Content = () => (
           </Text>
           <Flex
             css={{
-              gap: "$10",
+              gap: "$7",
               flexWrap: "wrap",
               justifyContent: "center",
               "@sm": {

@@ -41,9 +41,6 @@ export const Accounts = () => {
           <CrumbLink href="#">Users</CrumbLink>
           <Text>/</Text>
         </Crumb>
-        <Crumb>
-          <CrumbLink href="#">List</CrumbLink>
-        </Crumb>
       </Breadcrumbs>
 
       <Text h3>All Accounts</Text>
@@ -65,10 +62,10 @@ export const Accounts = () => {
             css={{ width: "100%", maxW: "410px" }}
             placeholder="Search users"
           />
-          <SettingsIcon />
+          {/* <SettingsIcon />
           <TrashIcon />
           <InfoIcon />
-          <DotsIcon />
+          <DotsIcon /> */}
         </Flex>
         <Flex direction={"row"} css={{ gap: "$6" }} wrap={"wrap"}>
           <AddUser />

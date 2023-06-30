@@ -34,7 +34,7 @@ export const CardBalance2 = () => {
             + 4.5%
           </Text>
         </Flex>
-        <Flex css={{ gap: "$12" }} align={"center"}>
+        <Flex css={{ gap: "1rem" }} align={"center"}>
           <Box>
             <Text
               span

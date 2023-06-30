@@ -11,7 +11,6 @@ export const CardTransactions = () => {
         height: "auto",
         bg: "$accents0",
         borderRadius: "$xl",
-        // alignContent: 'start',
         justifyContent: "start",
         px: "$6",
       }}
